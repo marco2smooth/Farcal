@@ -1143,14 +1143,8 @@ body {
   --tw-bg-opacity: 0.5;
 }
 .bg-\[image\:radial-gradient\(75\%_100\%_at_50\%_0\%\2c
-  rgba\(56\2c
-  189\2c
-  248\2c
-  0\.6\)_0\%\2c
-  rgba\(56\2c
-  189\2c
-  248\2c
-  0\)_75\%\)\] {
+  rgba\(56\2c189\2c248\2c0\.6\)_0\%\2c
+  rgba\(56\2c 189\2c 248\2c0\)_75\%\)\] {
   background-image: radial-gradient(
     75% 100% at 50% 0,
     rgba(56, 189, 248, 0.6) 0,
