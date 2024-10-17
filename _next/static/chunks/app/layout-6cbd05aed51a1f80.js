@@ -1424,112 +1424,14 @@
               {
                 element: "#home-nav",
                 popover: {
-                  title: "Home",
+                  title: "hi",
                   description:
-                    "This is main dashboard to have a quick overview about HackRx 5.0",
+                    "Farcal 1.0 is still in making",
                   side: "top",
                   align: "center",
                 },
               },
-              {
-                element: "#schedule-nav",
-                popover: {
-                  title: "Hackathon Itenary",
-                  description:
-                    "This is the iternary of the hackathon for finale teams",
-                  side: "top",
-                  align: "center",
-                },
-              },
-              {
-                element: "#map-nav",
-                popover: {
-                  title: "Venue Map",
-                  description:
-                    "This is the venue map, you can check the venue map here.",
-                  side: "top",
-                  align: "center",
-                },
-              },
-              {
-                element: "#timeline-nav",
-                popover: {
-                  title: "Event Timeline",
-                  description:
-                    "This is the timeline of the event, you can check the timeline of the event here.",
-                  side: "top",
-                  align: "center",
-                },
-              },
-              {
-                element: "#problem-statements-nav",
-                popover: {
-                  title: "Hackathon Problem Statements",
-                  description:
-                    "This is the problem statements of the hackathon, you can check the problem statements of the hackathon here.",
-                  side: "top",
-                  align: "center",
-                },
-              },
-              {
-                element: "#prizes-nav",
-                popover: {
-                  title: "Prizes",
-                  description:
-                    "This is the prizes of the hackathon, you can check the prizes of the hackathon here.",
-                  side: "top",
-                  align: "center",
-                },
-              },
-              {
-                element: "#help-nav",
-                popover: {
-                  title: "Help",
-                  description:
-                    "This is the help section, you can check the help section here.",
-                  side: "top",
-                  align: "center",
-                },
-              },
-              {
-                element: "#gallery",
-                popover: {
-                  title: "Gallery",
-                  description:
-                    "Glimpses of our past events, you can check the gallery here.",
-                  side: "bottom",
-                  align: "center",
-                },
-              },
-              {
-                element: "#guidelines",
-                popover: {
-                  title: "Guidelines",
-                  description:
-                    "This is the guidelines section, you can check the guidelines here.",
-                  side: "bottom",
-                  align: "center",
-                },
-              },
-              {
-                element: "#email-section",
-                popover: {
-                  title: "Contact Us",
-                  description: "This can be used to raise your queries.",
-                  side: "bottom",
-                  align: "center",
-                },
-              },
-              {
-                element: "#notifications-section",
-                popover: {
-                  title: "Notifications",
-                  description:
-                    "This is the notifications section, you can check the notifications here.",
-                  side: "bottom",
-                  align: "center",
-                },
-              },
+              
             ],
             onDestroyStarted: () => {
               (!e.hasNextStep() || confirm("Are you sure?")) && e.destroy();
